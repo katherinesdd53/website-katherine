@@ -1,0 +1,14 @@
+{
+  "name": "website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Katherine Suazo",
+  "license": "ISC",
+  "dependencies": {
+    "node": "^10.7.0"
+  }
+}
