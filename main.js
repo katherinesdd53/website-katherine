@@ -5,7 +5,7 @@ var express = require("express");
 var app     = express();
 var path    = require("path");
 
-app.use(express.static(__dirname + '/css/main.css')); //maybe add css/main.css
+app.use(express.static(__dirname + 'main.css')); //maybe add css/main.css
 
 app.get('/',function(req,res){
   res.sendFile(path.join(__dirname+'/index.html'));
